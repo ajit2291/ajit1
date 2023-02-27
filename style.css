@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    height: 100vh;
+    width: 100%;
+    background-image: url(5861819.jpg);
+    background-size: cover;
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+@keyframes animate {
+    from {
+        background-image: url("poster.jpg");
+        background-size: cover;
+    }
+    To {
+        background-image: url(728.jpg);
+        background-size: cover;
+    }
+}
+.flex-box{
+    background: rgb(27, 1, 6);
+    display: flex;
+    height: 60px;
+}
+.right-box{
+    flex: 80%;
+
+}
+
+.right-box{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.left-box{
+    flex: 20%;
+}
+.left-box img{
+    width: 70px;
+}
+.navel {
+    text-align: right;
+    word-spacing: 90px;
+    margin-right: 25px;
+}
+
+.searchbox {
+    height: 35px;
+    width: 20%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.card {
+    height: 100vh;
+    width: 100%;
+}
+
+.card h1 {
+    color: rgb(5, 3, 3);
+    size: 34%;
+    margin-left: 20px;
+}
+
+.card {
+   background: blanchedalmond;
+   height: 100vh;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5{
+    background:white;
+    background-size: cover;
+     margin-left: 30px;
+    display: inline-block;
+    width: 22%;
+    height: 70vh;
+    margin-top: 50px ;
+    border-radius: 20px;
+}
+.box1{
+    background-image: url(1.jpeg);
+    height: 50%;
+}
+.box2{
+    background-image: url(OIP.jpeg);
+    height: 50%;
+}
+.box3{
+    background-image: url(f.png);
+    height: 50%;
+}
+.box4{
+    background-image: url(lo1.jpeg);
+    height: 50%;
+}
+
